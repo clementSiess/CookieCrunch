@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044126AB1BBC6A2700FB57DE /* Levels in Resources */ = {isa = PBXBuildFile; fileRef = 044126AA1BBC6A2700FB57DE /* Levels */; settings = {ASSET_TAGS = (); }; };
+		044126AD1BBC6A6500FB57DE /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044126AC1BBC6A6500FB57DE /* Tile.swift */; settings = {ASSET_TAGS = (); }; };
+		044126AF1BBC6BC900FB57DE /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044126AE1BBC6BC900FB57DE /* Extensions.swift */; settings = {ASSET_TAGS = (); }; };
+		044126B11BBC777500FB57DE /* Swap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044126B01BBC777500FB57DE /* Swap.swift */; settings = {ASSET_TAGS = (); }; };
+		044126B31BBD7CD700FB57DE /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044126B21BBD7CD700FB57DE /* Chain.swift */; settings = {ASSET_TAGS = (); }; };
+		044126B51BBDB22B00FB57DE /* Sounds in Resources */ = {isa = PBXBuildFile; fileRef = 044126B41BBDB22B00FB57DE /* Sounds */; settings = {ASSET_TAGS = (); }; };
+		044126B71BBDBA4800FB57DE /* Grid.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 044126B61BBDBA4800FB57DE /* Grid.atlas */; settings = {ASSET_TAGS = (); }; };
 		67C0C86F1BB4814E007CE8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C86E1BB4814E007CE8EF /* AppDelegate.swift */; };
-		67C0C8711BB4814E007CE8EF /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 67C0C8701BB4814E007CE8EF /* GameScene.sks */; };
 		67C0C8731BB4814E007CE8EF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8721BB4814E007CE8EF /* GameScene.swift */; };
 		67C0C8751BB4814E007CE8EF /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8741BB4814E007CE8EF /* GameViewController.swift */; };
 		67C0C8781BB4814E007CE8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C0C8761BB4814E007CE8EF /* Main.storyboard */; };
@@ -16,6 +22,10 @@
 		67C0C87D1BB4814E007CE8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67C0C87B1BB4814E007CE8EF /* LaunchScreen.storyboard */; };
 		67C0C8881BB4814E007CE8EF /* CookieCrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8871BB4814E007CE8EF /* CookieCrunchTests.swift */; };
 		67C0C8931BB4814E007CE8EF /* CookieCrunchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8921BB4814E007CE8EF /* CookieCrunchUITests.swift */; };
+		67C0C8A11BB483A2007CE8EF /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 67C0C8A01BB483A2007CE8EF /* Sprites.atlas */; settings = {ASSET_TAGS = (); }; };
+		67C0C8A31BB48783007CE8EF /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8A21BB48783007CE8EF /* Cookie.swift */; settings = {ASSET_TAGS = (); }; };
+		67C0C8A51BB48CEE007CE8EF /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8A41BB48CEE007CE8EF /* Array2D.swift */; settings = {ASSET_TAGS = (); }; };
+		67C0C8A71BB492FA007CE8EF /* Level.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67C0C8A61BB492FA007CE8EF /* Level.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		044126AA1BBC6A2700FB57DE /* Levels */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Levels; sourceTree = "<group>"; };
+		044126AC1BBC6A6500FB57DE /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		044126AE1BBC6BC900FB57DE /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		044126B01BBC777500FB57DE /* Swap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swap.swift; sourceTree = "<group>"; };
+		044126B21BBD7CD700FB57DE /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
+		044126B41BBDB22B00FB57DE /* Sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sounds; sourceTree = "<group>"; };
+		044126B61BBDBA4800FB57DE /* Grid.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Grid.atlas; sourceTree = "<group>"; };
 		67C0C86B1BB4814E007CE8EF /* CookieCrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookieCrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C0C86E1BB4814E007CE8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		67C0C8701BB4814E007CE8EF /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		67C0C8721BB4814E007CE8EF /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		67C0C8741BB4814E007CE8EF /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		67C0C8771BB4814E007CE8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -51,6 +67,10 @@
 		67C0C88E1BB4814E007CE8EF /* CookieCrunchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CookieCrunchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67C0C8921BB4814E007CE8EF /* CookieCrunchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunchUITests.swift; sourceTree = "<group>"; };
 		67C0C8941BB4814E007CE8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67C0C8A01BB483A2007CE8EF /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		67C0C8A21BB48783007CE8EF /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		67C0C8A41BB48CEE007CE8EF /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		67C0C8A61BB492FA007CE8EF /* Level.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +121,24 @@
 		67C0C86D1BB4814E007CE8EF /* CookieCrunch */ = {
 			isa = PBXGroup;
 			children = (
+				044126B41BBDB22B00FB57DE /* Sounds */,
 				67C0C86E1BB4814E007CE8EF /* AppDelegate.swift */,
-				67C0C8701BB4814E007CE8EF /* GameScene.sks */,
 				67C0C8721BB4814E007CE8EF /* GameScene.swift */,
 				67C0C8741BB4814E007CE8EF /* GameViewController.swift */,
 				67C0C8761BB4814E007CE8EF /* Main.storyboard */,
 				67C0C8791BB4814E007CE8EF /* Assets.xcassets */,
+				044126AA1BBC6A2700FB57DE /* Levels */,
+				044126B61BBDBA4800FB57DE /* Grid.atlas */,
+				67C0C8A01BB483A2007CE8EF /* Sprites.atlas */,
 				67C0C87B1BB4814E007CE8EF /* LaunchScreen.storyboard */,
 				67C0C87E1BB4814E007CE8EF /* Info.plist */,
+				67C0C8A21BB48783007CE8EF /* Cookie.swift */,
+				67C0C8A41BB48CEE007CE8EF /* Array2D.swift */,
+				67C0C8A61BB492FA007CE8EF /* Level.swift */,
+				044126AC1BBC6A6500FB57DE /* Tile.swift */,
+				044126AE1BBC6BC900FB57DE /* Extensions.swift */,
+				044126B01BBC777500FB57DE /* Swap.swift */,
+				044126B21BBD7CD700FB57DE /* Chain.swift */,
 			);
 			path = CookieCrunch;
 			sourceTree = "<group>";
@@ -234,9 +264,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67C0C8711BB4814E007CE8EF /* GameScene.sks in Resources */,
+				044126B51BBDB22B00FB57DE /* Sounds in Resources */,
+				044126AB1BBC6A2700FB57DE /* Levels in Resources */,
 				67C0C87D1BB4814E007CE8EF /* LaunchScreen.storyboard in Resources */,
 				67C0C87A1BB4814E007CE8EF /* Assets.xcassets in Resources */,
+				044126B71BBDBA4800FB57DE /* Grid.atlas in Resources */,
+				67C0C8A11BB483A2007CE8EF /* Sprites.atlas in Resources */,
 				67C0C8781BB4814E007CE8EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,9 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67C0C8A71BB492FA007CE8EF /* Level.swift in Sources */,
 				67C0C8731BB4814E007CE8EF /* GameScene.swift in Sources */,
+				67C0C8A31BB48783007CE8EF /* Cookie.swift in Sources */,
+				044126AF1BBC6BC900FB57DE /* Extensions.swift in Sources */,
+				044126AD1BBC6A6500FB57DE /* Tile.swift in Sources */,
+				044126B31BBD7CD700FB57DE /* Chain.swift in Sources */,
 				67C0C8751BB4814E007CE8EF /* GameViewController.swift in Sources */,
 				67C0C86F1BB4814E007CE8EF /* AppDelegate.swift in Sources */,
+				67C0C8A51BB48CEE007CE8EF /* Array2D.swift in Sources */,
+				044126B11BBC777500FB57DE /* Swap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +531,7 @@
 				67C0C8991BB4814E007CE8EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67C0C89A1BB4814E007CE8EF /* Build configuration list for PBXNativeTarget "CookieCrunchTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +540,7 @@
 				67C0C89C1BB4814E007CE8EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		67C0C89D1BB4814E007CE8EF /* Build configuration list for PBXNativeTarget "CookieCrunchUITests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +549,7 @@
 				67C0C89F1BB4814E007CE8EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
